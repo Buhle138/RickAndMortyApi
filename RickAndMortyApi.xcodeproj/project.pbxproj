@@ -11,6 +11,7 @@
 		949DB87C2C21845300D22813 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB87B2C21845300D22813 /* ContentView.swift */; };
 		949DB87E2C21845400D22813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949DB87D2C21845400D22813 /* Assets.xcassets */; };
 		949DB8812C21845400D22813 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 949DB8802C21845400D22813 /* Preview Assets.xcassets */; };
+		949DB88A2C2186E500D22813 /* CharacterServiceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949DB8892C2186E500D22813 /* CharacterServiceResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		949DB87B2C21845300D22813 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		949DB87D2C21845400D22813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		949DB8802C21845400D22813 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		949DB8892C2186E500D22813 /* CharacterServiceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterServiceResult.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +53,10 @@
 		949DB8782C21845300D22813 /* RickAndMortyApi */ = {
 			isa = PBXGroup;
 			children = (
+				949DB88C2C2187C200D22813 /* Service */,
 				949DB8792C21845300D22813 /* RickAndMortyApiApp.swift */,
 				949DB87B2C21845300D22813 /* ContentView.swift */,
+				949DB8892C2186E500D22813 /* CharacterServiceResult.swift */,
 				949DB87D2C21845400D22813 /* Assets.xcassets */,
 				949DB87F2C21845400D22813 /* Preview Content */,
 			);
@@ -65,6 +69,13 @@
 				949DB8802C21845400D22813 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		949DB88C2C2187C200D22813 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				949DB87C2C21845300D22813 /* ContentView.swift in Sources */,
+				949DB88A2C2186E500D22813 /* CharacterServiceResult.swift in Sources */,
 				949DB87A2C21845300D22813 /* RickAndMortyApiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
