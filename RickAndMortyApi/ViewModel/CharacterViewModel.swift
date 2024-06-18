@@ -19,6 +19,7 @@ class CharacterViewModel: ObservableObject {
     
     @Published private(set) var state: State = .na
     
+    //initializing the character service object so that we can get access to the methods found in character service.
     private let service: CharacterService
     
     init(service: CharacterService) {
