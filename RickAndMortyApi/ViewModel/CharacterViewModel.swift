@@ -7,6 +7,7 @@
 
 import Foundation
 
+@MainActor
 class CharacterViewModel: ObservableObject {
     
     enum State {
